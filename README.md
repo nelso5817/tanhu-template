@@ -7,7 +7,10 @@ graph TD
     H --> K
     J --> K
     K --> | Additional configuration using Managed Identity | L(PnP PowerShell) --> M(Provisioned space)
+``````
 
+
+``` mermaid
 sequenceDiagram
     participant Alice
     participant Bob
