@@ -8,10 +8,9 @@ graph TD
     J --> K
     K --> | Additional configuration using Managed Identity | L(PnP PowerShell) --> M(Provisioned space)
 
-graph TD
-    A[Start] --> B{Is it working?}
-    B -->|Yes| C[Great!]
-    B -->|No| D[Check the code]
-    D --> E[Fix the issue]
-    E --> B
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>Bob: Hello Bob, how are you?
+    Bob-->>Alice: I am good, thanks!
 ``````
